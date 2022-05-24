@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class PlayerMovementScript : MonoBehaviour
 {
+
+    private SpriteRenderer PlayerSprite;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayerSprite = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -19,5 +22,14 @@ public class PlayerMovementScript : MonoBehaviour
         position.x = position.x + 5.0f * horizontal * Time.deltaTime;
         position.y = position.y + 5.0f * vertical * Time.deltaTime;
         transform.position = position;
+	  if(Input.GetKeyDown("right"))
+	  {
+            PlayerSprite.flipX=false;
+        }
+	  if(Input.GetKeyDown("left"))
+	  {
+            PlayerSprite.flipX=true;
+        }	
+	  
     }
 }
