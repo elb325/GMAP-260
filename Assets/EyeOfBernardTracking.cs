@@ -9,7 +9,7 @@ public class EyeOfBernardTracking : MonoBehaviour
  
      void Start() {
        //Make ObjectA's position match objectB
-       objectA.position = Player.position;
+       objectA.position = new Vector3(Player.position.x + 0.5f, Player.position.y + 2f, 0f);
    
        //Now parent the object so it is always there
        objectA.parent = Player;
