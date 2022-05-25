@@ -29,7 +29,11 @@ public class PlayerMovementScript : MonoBehaviour
 	  if(Input.GetKeyDown("left"))
 	  {
             PlayerSprite.flipX=true;
-        }	
+        }
+
+        if (Input.GetKeyDown("escape")) {
+            Application.Quit();
+        }
 	  
     }
 }
