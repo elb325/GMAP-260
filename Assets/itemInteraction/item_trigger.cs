@@ -14,6 +14,8 @@ public class item_trigger : MonoBehaviour
     void Update()
     {
         if (isInTrigger && Input.GetKeyDown("space")) {
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            player.GetComponent<PlayerMovementScript>().canMove = !player.GetComponent<PlayerMovementScript>().canMove;
             dim_overlay.GetComponent<Image>().enabled = !dim_overlay.GetComponent<Image>().enabled;
             image.GetComponent<Image>().enabled = !image.GetComponent<Image>().enabled;
             textbox.GetComponent<Image>().enabled = !textbox.GetComponent<Image>().enabled;
