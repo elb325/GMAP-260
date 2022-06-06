@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/May_20th_update_yep.unity
     guid: a9c12ab77054f4744bba8b6c0dca408d
   - enabled: 1
-    path: Assets/Scenes/Untitled Game.unity
+    path: Assets/Scenes/rm_basement.unity
     guid: 3aeced498153e7045824ef9ea78be969
   m_configObjects: {}
