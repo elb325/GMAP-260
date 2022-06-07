@@ -27,6 +27,8 @@ public class basement_door_trigger : MonoBehaviour
         dim_overlay.GetComponent<Image>().enabled = !dim_overlay.GetComponent<Image>().enabled;
         image.GetComponent<Image>().enabled = !image.GetComponent<Image>().enabled;
         textbox.GetComponent<Image>().enabled = !textbox.GetComponent<Image>().enabled;
+        yes_button.enabled = !yes_button.enabled;
+        no_button.enabled = !no_button.enabled;
     }
 
     void OnTriggerEnter2D(Collider2D other) {
