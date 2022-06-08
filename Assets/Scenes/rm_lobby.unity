@@ -2827,11 +2827,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 53613943875845436, guid: 788277fe79d1285488c47a4ea8f03be8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.04
+      value: 0.27
       objectReference: {fileID: 0}
     - target: {fileID: 53613943875845436, guid: 788277fe79d1285488c47a4ea8f03be8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.88
+      value: 5.15
       objectReference: {fileID: 0}
     - target: {fileID: 53613943875845436, guid: 788277fe79d1285488c47a4ea8f03be8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3726,6 +3726,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851820705}
   m_CullTransparentMesh: 1
+--- !u!1 &1865727099 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3763719858682287559, guid: 788277fe79d1285488c47a4ea8f03be8, type: 3}
+  m_PrefabInstance: {fileID: 1542167881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1865727100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865727099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46eafdfc243418d439d76f1b10f6e023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dim_overlay: {fileID: 1976551967}
+  image1: {fileID: 1038459495}
+  image2: {fileID: 513158047}
+  textbox1: {fileID: 420539425}
+  textbox2: {fileID: 713556652}
+  textbox3: {fileID: 1023662704}
+  use_hammer_button: {fileID: 1851820705}
+  leave_door_button: {fileID: 1048181962}
+  leave_manor_button: {fileID: 1866038608}
+  dont_leave_manor_button: {fileID: 1911781473}
+  hasHammer: {fileID: 0}
+  state: 0
 --- !u!1 &1866038608
 GameObject:
   m_ObjectHideFlags: 0
