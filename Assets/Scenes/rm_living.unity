@@ -5596,6 +5596,7 @@ MonoBehaviour:
   yes_button: {fileID: 1776824527}
   no_button: {fileID: 427306394}
   safe_input: {fileID: 1743086129}
+  gm: {fileID: 11400000, guid: 686b33e8215ab6b4fbb8e7314c9e7fa6, type: 2}
   state: 0
 --- !u!1001 &1841008769
 PrefabInstance:

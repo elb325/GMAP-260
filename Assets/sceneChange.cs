@@ -9,14 +9,12 @@ public class sceneChange : MonoBehaviour
 {
     bool isInTrigger = false;
     public SceneAsset changeToScene;
-    public GameObject hammer;
 
     // Update is called once per frame
     void Update()
     {
         if (isInTrigger && Input.GetKeyDown("space")) {
             SceneManager.LoadScene(changeToScene.name);
-		DontDestroyOnLoad(hammer);
         }
     }
 

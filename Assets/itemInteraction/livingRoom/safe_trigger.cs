@@ -17,6 +17,7 @@ public class safe_trigger : MonoBehaviour
     public GameObject yes_button;
     public GameObject no_button;
     public GameObject safe_input;
+    public HammerManager gm;
     public int state;
 
     void Start()
@@ -141,6 +142,7 @@ public class safe_trigger : MonoBehaviour
     public void checkCombo(string combo) {
         if (combo == "419") {
             loadStateWin();
+            gm.obtainHammer();
         } else {
             loadStateLose();
         }

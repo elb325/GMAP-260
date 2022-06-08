@@ -3088,7 +3088,8 @@ PrefabInstance:
       propertyPath: dim_overlay
       value: 
       objectReference: {fileID: 1976551967}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7835949051243517237, guid: 788277fe79d1285488c47a4ea8f03be8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 788277fe79d1285488c47a4ea8f03be8, type: 3}
 --- !u!1 &1550580885
 GameObject:
@@ -3153,7 +3154,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeToScene: {fileID: 102900000, guid: 03dd7ea0216ca1f4ab62b8d5ad289361, type: 3}
-  hammer: {fileID: 0}
 --- !u!1 &1672167997
 GameObject:
   m_ObjectHideFlags: 0
@@ -3744,17 +3744,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dim_overlay: {fileID: 1976551967}
-  image1: {fileID: 1038459495}
-  image2: {fileID: 513158047}
-  textbox1: {fileID: 420539425}
-  textbox2: {fileID: 713556652}
-  textbox3: {fileID: 1023662704}
+  blocked_image: {fileID: 1038459495}
+  unblocked_image: {fileID: 513158047}
+  txt_blocked_no_hammer: {fileID: 420539425}
+  txt_blocked_w_hammer: {fileID: 713556652}
+  txt_unblocked: {fileID: 1023662704}
   use_hammer_button: {fileID: 1851820705}
   leave_door_button: {fileID: 1048181962}
   leave_manor_button: {fileID: 1866038608}
   dont_leave_manor_button: {fileID: 1911781473}
-  hasHammer: {fileID: 0}
-  state: 0
+  gm: {fileID: 11400000, guid: 686b33e8215ab6b4fbb8e7314c9e7fa6, type: 2}
 --- !u!1 &1866038608
 GameObject:
   m_ObjectHideFlags: 0
