@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b6a630f80be86b418ccc521b1012c0b, type: 3}
   m_Name: hammertime
   m_EditorClassIdentifier: 
-  hasHammer: 1
+  hasHammer: 0

@@ -2,19 +2,18 @@ using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEditor;
 using UnityEngine.SceneManagement;
 
 public class sceneChange : MonoBehaviour
 {
     bool isInTrigger = false;
-    public SceneAsset changeToScene;
+    public string scenePath;
 
     // Update is called once per frame
     void Update()
     {
         if (isInTrigger && Input.GetKeyDown("space")) {
-            SceneManager.LoadScene(changeToScene.name);
+            SceneManager.LoadScene(scenePath);
         }
     }
 

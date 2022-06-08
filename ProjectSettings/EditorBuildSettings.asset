@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/rm_lobby.unity
     guid: ffe2a1664c57e4a4b85785bf2b697705
+  - enabled: 1
+    path: Assets/Scenes/zend.unity
+    guid: b69224c90cd08764ab02ce76be3f78f9
   m_configObjects: {}

@@ -4655,8 +4655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f287fa54672f7640889c8ea51dc68f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeToScene: {fileID: 102900000, guid: ffe2a1664c57e4a4b85785bf2b697705, type: 3}
-  hammer: {fileID: 0}
+  scenePath: rm_lobby
 --- !u!1 &1645120928
 GameObject:
   m_ObjectHideFlags: 0
@@ -6240,7 +6239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2129628090
 RectTransform:
   m_ObjectHideFlags: 0

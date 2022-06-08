@@ -131,7 +131,7 @@ public class exitManor : MonoBehaviour
 
     public void leave_manor_clicked() 
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene("zend");
     }
 
     public void dont_leave_manor_clicked() 
