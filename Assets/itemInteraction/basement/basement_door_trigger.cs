@@ -45,8 +45,9 @@ public class basement_door_trigger : MonoBehaviour
         }
     }
 
-    public void yesClicked() {
+    public void yesClicked(GameObject hammer) {
         SceneManager.LoadScene(2);
+	  DontDestroyOnLoad(hammer);
     }
 
     public void noClicked() {
